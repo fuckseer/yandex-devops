@@ -43,6 +43,8 @@ resource "yandex_compute_instance" "vm" {
   }
 }
 
+
+
 variable "yandex_token" {
   description = "Yandex.Cloud OAuth token"
 }
